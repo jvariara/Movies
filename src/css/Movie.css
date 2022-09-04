@@ -1,0 +1,180 @@
+.moviePage {
+    overflow-x: hidden;
+}
+
+.movies__main {
+    background-color: #f8f9fa;
+}
+
+.movies__container {
+    padding: 24px 0;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.movie__selected--top {
+    align-items: center;
+    color: #1e1e1e;
+    display: flex;
+    font-size: 32px;
+    margin-bottom: 8px;
+    padding: 0 24px;
+}
+
+.movie__link {
+    color: #1e1e1e;
+    display: flex;
+    align-items: center;
+}
+
+.movie__selected--title--top {
+    margin-left: 10px;
+}
+
+.fa-arrow-left {
+    font-size: 42px;
+}
+
+.movie__selected {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.movie__selected--figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    width: 40%;
+}
+
+.movie__selected--img {
+    max-height: 500px;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.movie__selected--description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 32px;
+    width: 60%;
+}
+
+.movie__selected--title {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.movie__selected--year {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.movie__selected--type {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.movie__plot {
+    margin-bottom: 16px;
+}
+
+.movie__plot--title {
+    margin-bottom: 8px;
+}
+
+.movie__plot--para {
+    margin-bottom: 16px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.movie__ratings {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.movie__rating {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.movie__extra {
+    font-size: 20px;
+}
+
+.rating__logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.rating {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* SKELETON STATE */
+.movie__img--skeleton {
+    width: 100%;
+    max-width: 250px;
+    height: 450px;
+    background-color: rgb(204, 204, 204);
+    margin: 8px 0;
+}
+
+.skeleton {
+    background-color: rgb(227, 227, 227) !important;
+    margin-bottom: 8px;
+}
+
+.movie__type--skeleton {
+    height: 21px;
+    width: 200px;
+}
+
+.movie__plot--skeleton {
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.movie__extra--skeleton {
+    height: 100px;
+    width: 200px;
+}
+
+
+@media (max-width: 550px) {
+    
+    .movie__selected {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie__selected--figure {
+        width: 100%;
+    }
+
+    .movie__selected--description {
+        align-items: center;
+    }
+    .movie__selected--type {
+        font-size: 16px;
+    }
+}
